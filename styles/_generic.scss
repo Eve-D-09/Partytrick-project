@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 100%;
+    margin: 0 auto;
+    background-color: #fff8ec;
+}
+
+img {
+    display:block;
+    height:auto;
+    max-width: 100%;
+}
+
+picture {
+    display:block;
+}
+
+:root {
+    --light-pink: #ffd8d7;
+    --bright-red: #f94e41;
+    --dark-green: #17372e;
+    --lighter-green: #6f712f;
+    --lilac: #b6a2ea;
+    --verylight-beige: #fff8ec;
+    --dark-wine: #790808;
+    --small-border-radius: 7px;
+
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+/* fonts */
+@font-face {
+    font-family: 'GT-Alpina-extended';
+    src: url(../fonts/GT-Alpina/GT-Alpina-Extended-Light-Trial.otf);
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GT-Alpina-Typewritter';
+    src: url(../fonts/GT-Alpina/GT-Alpina-Typewriter-Regular-Trial.otf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Drify-light';
+    src: url(../fonts/Drify/COM4DL__.TTF);
+    font-weight:400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Crimson-italic';
+    src: url(../fonts/OTF/Crimson-Italic.otf);
+    font-weight:400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Opti-Trim-Roman';
+    src: url(../fonts/Opti-Trim-Roman-OTF/OPTITrimRoman.otf);
+    font-weight:700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Opti-Berling';
+    src: url(../fonts/Opti-Berling-bold-italic/OPTIBerling-BoldItalicAg.otf);
+    font-weight:700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family:'Sweet-sans' ;
+    src: url(../fonts/sweet-sans/SweetSansProRegular.woff);
+    font-weight:400;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family:'Sweet-sans' ;
+    src: url(../fonts/sweet-sans/SweetSansProMedium.woff);
+    font-weight:500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:'Sweet-sans' ;
+    src: url(../fonts/sweet-sans/SweetSansProRegular.woff);
+    font-weight:400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family:'Sweet-sans' ;
+    src: url(../fonts/sweet-sans/SweetSansProMediumItalic.woff);
+    font-weight:500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family:'Sweet-sans' ;
+    src: url(../fonts/sweet-sans/SweetSansProBold.woff);
+    font-weight:700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:'Sweet-sans' ;
+    src: url(../fonts/sweet-sans/SweetSansProBoldItalic.woff);
+    font-weight:700;
+    font-style: italic;
+}
+
+
+:root {
+    $brightRed: #f94e41;
+}
+
+
+
+ 

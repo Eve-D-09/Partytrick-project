@@ -1,0 +1,146 @@
+.pop-up-window {
+  
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  // position: absolute;
+  // top: 0;
+  // left: 0;
+  // high z-index gives priority
+  // z-index: 15;
+  
+
+  .pop-up-box {
+    border: 2px solid salmon;
+    background-color: var(--verylight-beige);
+    border-radius: 10px;
+    width: 900px;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    
+    
+    .pop-up-image {
+      width: 50%;
+
+      picture {
+        width: 100%;
+        height: 100%;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          border-radius: 5px;
+
+        }
+      }
+    }
+    
+
+    .pop-up-content {
+      padding: 3rem;
+      width: 60%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      h2 {
+        font-family: "Drify-light", Georgia, sans-serif;
+        font-size: 3.5rem;
+        font-weight: 500;
+        font-style: italic;
+        margin: 0;
+      }
+      p {
+        font-family: "Sweet-sans", Arial, Helvetica, sans-serif;
+        font-size: 1.25rem;
+        font-weight: 500;
+        color: var(--dark-green);
+
+      }
+
+      div:nth-of-type(3) {
+        justify-content: flex-end;
+
+        form {
+          flex-direction: column;
+          flex-wrap: nowrap;
+          gap: 20px;
+
+          label {
+            font-family: "Sweet-sans", Arial, Helvetica, sans-serif;
+            font-weight: 500;
+            font-size: 0.875rem;
+            text-transform: uppercase;
+            margin-bottom: 0;
+          }
+
+          input {
+            width: 100%;
+            height: 50px;
+            background-color: var(--verylight-beige);
+            border: 1px solid #000000;
+            border-radius: 7px;
+            margin-bottom: 0;
+            padding: 1rem;
+            font-family: 'Sweet-sans';
+            
+
+            &:hover {
+              border: 1px solid var(--bright-red);
+              background-color: var(--light-pink);
+              cursor:text;
+              transition: 0.2s all ease-in-out;
+
+            }
+
+
+
+          }
+
+          button {
+            width: 100%;
+            height: 50px;
+            text-transform: uppercase;
+            color: #ffffff;
+            background-color: var(--bright-red);
+            font-family: "Sweet-sans", Arial, sans-serif;
+            font-weight: 500;
+            font-size: 1rem;
+            border: none;
+            border-radius: 7px;
+
+            &:hover {
+              background-color: var(--light-pink);
+              color: var(--bright-red);
+              transition: 0.2s all ease-in-out;
+              cursor: pointer;
+
+            }
+          }
+        }
+      }
+
+      .red-cross {
+        width: 40px;
+        height: 40px;
+        background-color: var(--light-pink);
+        border-radius: 7px;
+        position: absolute;
+        top: 2%;
+        right: 1%;
+  
+        &:hover {
+          cursor: pointer;
+  
+        }
+  
+      }
+    }
+
+  }
+}

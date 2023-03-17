@@ -1,0 +1,275 @@
+/* default mobile */
+
+header {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 16px 0;
+  position: relative;
+}
+
+.header-container {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation nav {
+  background-color: var(--light-pink);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 280px;
+  height: 100vh;
+  padding: 1.25rem 1.25rem 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10;
+}
+
+nav > img {
+  width: 60px;
+  align-self: flex-end;
+}
+
+nav ul {
+  height: 65vh;
+  margin: 0;
+  padding: 1rem 0;
+}
+
+nav ul ul {
+  display: none;
+  width: 100%;
+  height: auto;
+  
+}
+
+.navigation li:hover ul {
+  display:flex;
+  flex-direction: column;
+  position: relative;
+  // z-index: 20;
+  background-color: var(--light-pink);
+  border-top: 2px dotted var(--dark-green);
+  border-bottom: 2px dotted var(--dark-green);
+  height: auto;
+  
+}
+
+
+nav ul ul li {
+  border: unset;
+  padding: 0;
+}
+
+nav li {
+  width: 100%;
+  height: 7vh;
+}
+
+nav li a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li a:hover {
+  color: var(--bright-red);
+}
+
+
+.nav-button {
+  background-color: var(--bright-red);
+  color: #ffffff;
+  padding: 0.2rem 0.5rem;
+  width: 85%;
+  margin: 0 auto;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.navigation nav,
+.button-start {
+  display: none;
+}
+
+
+
+.navigation a {
+  font-family: "Sweet-sans", Arial, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.375rem;
+  line-height: 34px;
+  color: var(--dark-green);
+}
+
+.button-start a {
+  color: #ffffff;
+  font-size: 0.875rem;
+  width: 160px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0.5rem;
+  background-color: var(--bright-red);
+  border-radius: 20px;
+}
+
+.button-start a:hover {
+   background-color: var(--light-pink);
+   color: var(--bright-red);
+
+
+}
+// .button-start img {
+//   background-color: var(--bright-red);
+// }
+
+
+
+.navigation:hover img + nav {
+  display: initial;
+}
+
+
+@media (min-width: 480px) {
+  .header-container {
+    width: 85%;
+  }
+
+  .button-start {
+    width: 180px;
+    display: flex;
+    order: -1;
+  }
+
+  .navigation {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .nav-button {
+    display: none;
+  }
+}
+
+@media (min-width: 990px) {
+  .header-container {
+    width: 95%;
+    max-width: 1300px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+
+    .logo-box img {
+      width: 160px;
+    }
+
+    .navigation {
+      display: initial;
+      width: auto;
+      height: 100%;
+      display: flex;
+      align-self: flex-end;
+
+      > img {
+        display: none;
+      }
+
+      nav {
+        position: unset;
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        padding: 0;
+        background-color: var(--verylight-beige);
+        order: -1;
+
+        > img {
+          display: none;
+        }
+
+        ul {
+          width: 100%;
+          height: auto;
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-end;
+          align-items: center;
+          padding: 0;
+          position: relative;
+
+          li {
+            width: max-content;
+            height: auto;
+
+            a:first-of-type,
+            a:nth-of-type(5) {
+              justify-content: center;
+
+
+            }
+            // img {
+            //   background-color: var(--verylight-beige);
+            // }
+
+            ul {
+              display: none;
+              flex-direction: column;
+              width: 120px;
+              background-color: var(--light-pink);
+              border-radius: var(--small-border-radius);
+              position: absolute;
+              border: unset;
+
+              li {
+                border: none;
+              }
+            }
+
+            &:hover ul {
+              display: initial;
+            }
+          }
+
+          li:nth-of-type(5) > ul {
+            right: 85px;
+          }
+
+          a {
+            width: auto;
+            height: auto;
+            font-size: 0.875rem;
+            line-height: 1.5;
+            font-weight: 500;
+            padding: 0.5rem 0.75rem;
+
+            &:hover {
+              color: var(--bright-red);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1170px) {
+  header {
+    padding-bottom: 5rem;
+    .header-container {
+      width: 90%;
+    }
+  }
+
+  
+  
+}

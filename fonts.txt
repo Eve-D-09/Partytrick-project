@@ -1,0 +1,91 @@
+@font-face {
+  font-family: 'Gt Alpina Extended';
+  src: url('https://uploads-ssl.webflow.com/62997895c87f6a2bd9703c94/62a797be80131c72bb327c0c_GT-Alpina-Extended-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}      
+@font-face {
+  font-family: 'Gt Alpina Typewriter';
+  src: url('https://uploads-ssl.webflow.com/62997895c87f6a2bd9703c94/62a797e77473f5c7ad427f36_GT-Alpina-Typewriter-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ivypresto';
+  src: url('https://uploads-ssl.webflow.com/62997895c87f6a2bd9703c94/62a7975c085931ade4946288_IvyPresto%20Headline%20Regular%20Italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ivypresto';
+  src: url('https://uploads-ssl.webflow.com/62997895c87f6a2bd9703c94/62a7975c59a85fe907bfa26d_IvyPresto%20Headline%20Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ivypresto';
+  src: url('https://uploads-ssl.webflow.com/62997895c87f6a2bd9703c94/62a7975ca12b77c3a07043cb_IvyPresto%20Headline%20Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ivypresto';
+  src: url('https://uploads-ssl.webflow.com/62997895c87f6a2bd9703c94/62a7975dadd1bc397ff75cf3_IvyPresto%20Headline%20Bold%20Italic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Sweet sans';
+  src: url('https://uploads-ssl.webflow.com/62997895c87f6a2bd9703c94/62a797969b7aba0803e1bb88_Sweet%20Sans%20Pro%20Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Sweet sans';
+  src: url('https://uploads-ssl.webflow.com/62997895c87f6a2bd9703c94/62a79796fc0436f45e7ae968_Sweet%20Sans%20Pro%20Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Sweet sans';
+  src: url('https://uploads-ssl.webflow.com/62997895c87f6a2bd9703c94/62a79796be7fa26e52875fcc_Sweet%20Sans%20Pro%20Regular%20Italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Sweet sans';
+  src: url('https://uploads-ssl.webflow.com/62997895c87f6a2bd9703c94/62a7979621ede6404bbb14aa_Sweet%20Sans%20Pro%20Medium%20Italic.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Sweet sans';
+  src: url('https://uploads-ssl.webflow.com/62997895c87f6a2bd9703c94/62a79796be7fa27aaa875fcb_Sweet%20Sans%20Pro%20Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Sweet sans';
+  src: url('https://uploads-ssl.webflow.com/62997895c87f6a2bd9703c94/62a79797453f14abf5133f64_Sweet%20Sans%20Pro%20Bold%20Italic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+
+
+
+
+
+

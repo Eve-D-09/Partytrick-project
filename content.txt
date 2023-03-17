@@ -1,0 +1,47 @@
+background color: #ffd8d7 light pink
+color: #f94e41
+
+Header:
+a + img, title partytrick
+
+a + svg star+ get started
+svg icon 3 lines
+
+navigation:
+ul li big cross
+      PARTIES V ( v is svg img)
+         COLLABS
+      HOW IT WORKS
+      PRICING
+      BLOG
+      RESOURCES
+         FACTS, ABOUT, CONTACT
+      LOG IN
+ 
+
+MAIN:
+h1: A party so perfect you won’t believe <em>you hosted <em> it. font-size 3rem, color #17372e, Ivypresto,Georgia,sans-serif; font weight 400
+
+p: We provide hosts with tools to make elevating gatherings easier, including party concepts, styled and shoppable decor, customized guidelines, with timelines and checklists curated by the pros. 16 px, font sweet sans, arial, sans serif
+
+dotted line
+
+
+We're all about DIY ease, not DIY squeeze.
+
+a + svg star+ START A PARTY (links changing their color when hovered)
+a HOW IT WORKS
+
+section
+h2 HOW IT WORKS 14 px font size, letter spacing 0.08 em, font weight 500, line-height 1.1, sweet sans, arial, sans-serif
+
+h3 Pick your party, 48px, Ivypresto, georgia, font-weight: 400, line height 1.1, font size 3 rem
+
+h3 bring it to life
+h3 Plan like a pro
+p: 20px sweet sans, font size 1.25rem
+
+h2 Featured parties font family ivypresto, georgia, sans-serif, font-size 5rem, line height 1, font-weight 400
+
+
+2 links a + svg arrows, border radius 7px, font-family sweet sans, arial, sans-serif, font-size 1rem, line-height 1, font-weight 500, letter
