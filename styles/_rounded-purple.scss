@@ -20,7 +20,6 @@
   font-weight: 600;
   font-size: 1.4rem;
   font-style: normal;
-  /* line-height: 19px; */
   line-height: 1.2;
   color: var(--dark-green);
 }
@@ -119,7 +118,7 @@ cite {
   display: flex;
   flex-wrap: nowrap;
   overflow-x: auto;
-  // flex-direction: column;
+  // overflow-x: hidden;
   gap: 20px;
 }
 
@@ -160,8 +159,7 @@ cite {
   border: 2px solid #ffffff;
   border-radius: 7px;
   background-color: #ffffff;
-  // position: relative;
-  // z-index: 5;
+  
 }
 
 .party-card p,
@@ -346,8 +344,8 @@ blockquote {
     }
 
     .purple-column:first-of-type {
-      height: 740px;
-      padding-bottom: 4rem;
+      height: 780px;
+     
       width: 90%;
 
       .purple-row {
@@ -355,10 +353,33 @@ blockquote {
 
         .party-card {
           width: 100%;
+          
 
-          .links-container {
-            margin-top: 0;
+          div:nth-of-type(2) {
+            width: 100%;
+            height: 330px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            margin-left: 0;
+            margin-right: 0;
+            padding:0  20px;
+
+            h3 {
+              margin: 1rem 0 1rem;
+            }
+            p {
+              margin: 0;
+            }
+
+            .links-container {
+              align-self: flex-end;
+              margin-bottom: 0;
+              margin-top: auto;
+            }
           }
+
+          
         }
       }
     }
@@ -427,25 +448,178 @@ blockquote {
     .purple-column:last-of-type {
       width: 95%;
       height: auto;
-       
+      
+
 
       .blockquote-row {
         display: flex;
         justify-content: space-between;
-        // height: 650px;
+        
         
         .blockquote {
           flex-basis: 40%;
-          // height: 650px;
+          
         }
 
         
 
       }
     }
+    .purple-column:first-of-type {
+      height: auto;
+
+      .purple-title {
+        h2 {
+          font-size: 5rem;
+          
+        }
+      }
+    }
+
+
+
   }
 }
 
 @media (min-width: 1020px) {
 //  add 3 cards in row
+   .purple-container {
+      .purple-column:first-of-type {
+        height:auto;
+        
+
+        
+
+        .purple-row {
+          width: 100%;
+          gap: 20px;
+          height: auto;
+         
+          .party-card {
+            flex-basis: 30%;
+            height: auto;
+          }
+        }
+        
+      }
+      .purple-column:last-of-type {
+        width: 90%;
+        height: auto;
+        justify-content: center;
+        
+
+        .blockquote-row {
+          height: 620px;
+
+          .blockquote-image {
+           
+            picture {
+              height: 610px;
+              img {
+                height: 550px;
+                object-fit: cover;
+              }
+            }
+          }
+
+          .blockquote {
+            
+            flex-basis: 45%;
+            justify-content: flex-start;
+
+          
+            .cite {
+              padding-bottom: 2rem;
+            }
+             
+          }
+        }
+      }
+   }
+}
+
+@media (min-width: 1170px) {
+   .purple-container {
+    .purple-column:last-of-type {
+      padding-bottom: 4rem;
+      .blockquote-row {
+        height: 580px;
+        padding-bottom: 0;
+
+        .blockquote-image {
+          height: 100%;
+
+          picture{
+            height: 580px;
+
+            img {
+              height: 100%;
+            }
+          }
+        }
+
+        .blockquote {
+          justify-content: space-between;
+          
+        }
+      }
+    }
+   }
+}
+
+@media (min-width:1470px) {
+  .rounded-purple {
+    .purple-container {
+      .purple-column:first-of-type {
+        width: 1340px;
+        .purple-row {
+          margin-bottom: 2rem;
+          .party-card {
+            width: 418px;
+            height: 520px;
+            display: flex;
+            flex-direction: column;
+
+            .image-card {
+              padding: 0;
+            }
+            
+            > div:nth-of-type(2) {
+              margin: 0;
+              padding: 20px;
+              height: 310px;
+              width: 100%;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+
+              h3 {
+                margin: 0;
+                height: auto;
+              }
+              p {
+                height: auto;
+              }
+
+              
+            }
+          }
+        }
+      }
+
+      .purple-column:last-of-type {
+        width: 1340px;
+        .blockquote-row {
+          height: 520px;
+
+          .blockquote-image {
+            height: 520px;
+            img {
+              height: 520px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
